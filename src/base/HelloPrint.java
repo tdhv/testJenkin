@@ -3,10 +3,14 @@ package base;
 public class HelloPrint {
 
 	public static void main(String[] args) {
+		
+		int total = 0;
+		for(int i=1;i<11;i++) {
+			System.out.println(i + " * 2 = " + i*2);
+			total += (i*2);
+		}	
 
-		System.out.println("Hello World! This is program is executed from Jenkins.");
-		System.out.println("This line is added after build in Jenkins...");
-		System.out.println("Changeing file to check auto build in jenkins");
+		System.out.println("Total = " + total);
 	}
 
 }
