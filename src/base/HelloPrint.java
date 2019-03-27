@@ -6,6 +6,7 @@ public class HelloPrint {
 
 		System.out.println("Hello World! This is program is executed from Jenkins.");
 		System.out.println("This line is added after build in Jenkins...");
+		System.out.println("Changeing file to check auto build in jenkins");
 	}
 
 }
